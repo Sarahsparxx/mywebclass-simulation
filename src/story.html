@@ -1,174 +1,89 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
 
 <head>
-    <!--characterset UTF-8 Watch this: https://youtu.be/MijmeoH9LT4 -->
-
-    <title>MyWebClass.org | Our Story</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story</title>
 
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fyi7g4Gz8DROMsWAgv7B1" crossorigin="anonymous">
 
-    <!--Basic meta info -->
-    <meta content="My Webclass Homepage | Our Story" name="keywords">
-    <meta content="Keith Williams" name="author"/>
-    <meta content="The story and mission of MyWebClass.org" name="description">
-
-    <!--OpenGraph meta -->
-    <meta content="" property="og:title"/>
-    <meta content="" property="og:description"/>
-    <meta content="assets/images/logo.png" property="og:image"/>
-    <meta content="" property="og:url"/>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
 </head>
 
 <body>
-<div class="container-fluid">
-    <header class="fixed-top" role="banner">
-        <nav aria-label="Main navigation" class="navbar navbar-expand-lg navbar-dark bg-dark " role="navigation">
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="/">MyWebClass.org</a>
-                <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
-                        class="navbar-toggler"
-                        data-bs-target="#navbarCollapse" data-bs-toggle="collapse" type="button">
-                    <span aria-hidden="true" class="navbar-toggler-icon"></span>
-                    <span class="visually-hidden">Toggle navigation</span>
+                <a class="navbar-brand" href="home_page.html">MyWebClass.org</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home Page</a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="content.html">Content Template</a>
+                            <a class="nav-link" href="privacy.html">Privacy Policy Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="content.html">Content Template Page</a>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-
-        <nav aria-label="Breadcrumb" class="py-3 d-none d-md-block">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-auto text-start">
-                        <ol class="breadcrumb my-0">
-                            <li class="breadcrumb-item"><a href="/">Home</a></li>
-                            <li aria-current="page" class="breadcrumb-item active">Content Template</li>
-                        </ol>
-                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <!-- Sidebar menu with scrollspy -->
-            <nav class="col-md-2 col-lg-2 d-md-block bg-light sidebar collapse position-fixed" id="sidebarMenu">
-                <div class="position-sticky pt-3">
-                    <h2 class="justify-left">Navigation</h2>
-                    <!-- Javascript builds out the navigation items -->
-                </div>
-            </nav>
+    <div id="story" class="container mt-5">
+        <h1>Our Story</h1>
+        <h2>Mission</h2>
+        <p>Our mission is to provide a dynamic and inclusive online learning environment that empowers students to
+            explore, discover, and grow. Through cutting-edge technology and engaging educational resources, we strive
+            to foster a lifelong love of learning, promote critical thinking skills, and inspire students to reach their
+            full potential. Our goal is to create a community of learners who collaborate, support, and challenge one
+            another, as they embark on a journey of discovery and personal growth.</p>
 
-            <!-- Main content area -->
-            <main class="col-md-9 ms-sm-auto col-lg-9 px-md-4">
+        <h2>Values</h2>
+        <p><b>Inclusivity:</b> We value diversity and strive to create a website that welcomes all students,
+            regardless of their background, culture, or abilities.</p>
 
-                <h1 class="fw-bold border-bottom" id="title">Our Story</h1>
-                <div class="text-muted mb-3 ">By <a href="#">Author Name</a><span class="text-muted me-3"> Last Updated:
-              January 1, 2022</span> <span class="text-muted" id="readingTime">0</span>
-                </div>
-                    <section class="row">
-                            <h2 class="h4 mb-4">Mission</h2>
-                            <p>Our mission is to create a community of people committed to helping students of all ages
-                                and backgrounds succeed in the modern software industry by providing educational
-                                opportunities and a practical, hands-on learning experience.</p>
+        <p><b>Collaboration:</b> We believe that learning is a collaborative effort, and we encourage students to work
+            together, share ideas, and support each other in achieving their academic goals.</p>
 
-                            <h2 class="h4 mb-4">Values</h2>
-                            <ul>
-                                <li><strong>People:</strong> We value the people in our community and believe that every
-                                    student and teacher has the potential to succeed. We strive to create an inclusive
-                                    and supportive environment where everyone feels welcome to learn and grow.
-                                </li>
-                                <li><strong>Learning:</strong> We believe that learning is a lifelong process and that
-                                    everyone has something to teach and something to learn. We are committed to
-                                    providing educational opportunities that help students and teachers gain experience
-                                    with new technologies and learn advanced software engineering concepts.
-                                </li>
-                                <li><strong>Efficiency:</strong> We recognize that time is a valuable resource, and we
-                                    strive to make the most of it. We aim to provide a practical, hands-on learning
-                                    experience that allows students and teachers to develop the skills they need to
-                                    succeed in the modern software industry quickly.
-                                </li>
-                                <li><strong>Dependability:</strong> We understand the importance of being reliable and
-                                    consistent. We aim to provide a stable and dependable platform for students and
-                                    teachers to learn and collaborate.
-                                </li>
-                            </ul>
-                            <p>Each of these values supports our mission by creating a welcoming and supportive
-                                environment for students and teachers to learn and grow. Our focus on people ensures
-                                that everyone feels included and valued, and our commitment to learning provides
-                                educational opportunities that help students and teachers succeed in the modern software
-                                industry. Our emphasis on efficiency and dependability allows us to provide a practical,
-                                reliable platform that makes the most of everyone's time.</p>
+        <p><b>Creativity:</b> We recognize the importance of creativity in learning and provide opportunities for
+            students to express themselves, think outside the box, and explore new ideas.
+        </p>
+        <p><b>Innovation:</b> We embrace technology and innovative tools to enhance the learning experience, foster
+            engagement, and prepare students for a rapidly changing world.</p>
 
-                            <h2 class="h4 mb-4">Origin</h2>
-                            <p>Mywebclass.org was founded in 2023 by Keith Williams, a University Lecturer at New Jersey
-                                Institute of Technology with over 30 years of experience as a software engineer,
-                                entrepreneur, and 17 years of experience as a university lecturer and in k-12 education.
-                                Keith founded mywebclass.org to help bridge the gap between educators and professionals
-                                in the software industry by creating a community of people committed to helping students
-                                of all ages and backgrounds succeed.</p>
+        <p><b>Responsibility:</b> We encourage students to take responsibility for their learning, set goals, and take
+            ownership of their academic progress.</p>
 
-                            <p>Thank you for your interest in mywebclass.org. Together, we can create a community of
-                                people committed to helping students of all ages and backgrounds succeed in the modern
-                                software industry.</p>
-                        </div>
-                    </section>
-
-
-            </main>
-        </div>
-        <footer class="py-5 container">
-            <div class="row">
-                <div class="col">
-                    <h1>About Us</h1>
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="story.html">Our
-                            Story</a>
-                        </li>
-
-                        <a aria-current="page" class="nav-link mb-2 p-0 text-muted active" href="privacy.html">Privacy
-                            Policy</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-3 ">
-                    <h1>Share on Social Media</h1>
-                    <ul class="nav">
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="#"><i
-                                class="bi bi-linkedin me-2"></i></a></li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="#"><i
-                                class="bi bi-twitter me-2"></i></a>
-                        </li>
-                        <li class="nav-item mb-2"><a class="nav-link p-0 text-muted" href="#"><i
-                                class="bi bi-facebook me-2"></i></a></li>
-                    </ul>
-                </div>
-
-
-                <div class="col-md-5 offset-md-1 mb-3">
-                    <form>
-                        <h1>Subscribe to our newsletter</h1>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label class="visually-hidden" for="newsletter1">Email address</label>
-                            <input class="form-control" id="newsletter1" placeholder="Email address" type="text">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </footer>
+        <h2>Origin</h2>
+        <p>A group of passionate students Sarah Ibewuike, Awura Abena Adjei and Lorenzo Troia at
+            New Jersey Institute of Technology came together with a shared vision: to create a digital platform that
+            would transform the way students learn and teachers teach. They envisioned a website that would be more than
+            just a repository of information, but a dynamic and interactive space that would engage students, foster
+            collaboration, and inspire creativity. Over months of brainstorming, designing, and coding, they brought
+            their vision to life, creating a website that combined cutting-edge technology with innovative teaching
+            methods. They launched the website to great fanfare, and it quickly gained a reputation as a game-changer in
+            the field of online education.</p>
     </div>
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+        <a href="story.html">
+            <p>Our Story</p>
+        </a>
+        <p>MyWebClass.org &copy; 2023, All Rights Reserved </p>
+    </footer>
 </body>
 
 </html>
