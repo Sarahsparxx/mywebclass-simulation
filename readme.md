@@ -21,7 +21,11 @@ Best regards,
 P. Williams
 
 # Submit any questions or Issues to the Repository, so that they can be tracked and resolved.
-2. website description resolved
+
+1. Title resolved
+2. Website description resolved
+
+
 ## Project Introduction
 
 Welcome to the MyWebClass.org Simulation project! In this project, you'll have the opportunity to develop your skills in project management and web development, and to gain hands-on experience working with real-world tools and technologies.
@@ -41,7 +45,8 @@ Finally, use Playwright to create powerful and reliable automated tests for web 
 1. [Part 1 - Getting Ready for Project 1](https://youtu.be/b60nwHeJjrQ)
 2. [Part 2 - Lean and Using ChatGPT for The Project ](https://youtu.be/EZMRNybUtUI)
 3. [Part 3 - Project Introduction](https://youtu.be/FkPZDFmGuys)
-4. TBD
+4. [Part 4 - Getting Ready for Project 2](https://youtu.be/ZiQIheh5xb4)
+5. [Part 4a - Playwright and LightHouse Action](https://youtu.be/JiIp0NxvHlU)
 
 # Project Setup
 ## I am giving you my code; howevever, you should replace what I did with your own work.  Feel free to choose another CSS framework; howevever, you must complete the project simulation's requirements. 
