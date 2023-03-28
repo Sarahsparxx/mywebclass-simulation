@@ -21,7 +21,7 @@ Best regards,
 P. Williams
 
 # Submit any questions or Issues to the Repository, so that they can be tracked and resolved.
-
+2. website description resolved
 ## Project Introduction
 
 Welcome to the MyWebClass.org Simulation project! In this project, you'll have the opportunity to develop your skills in project management and web development, and to gain hands-on experience working with real-world tools and technologies.
