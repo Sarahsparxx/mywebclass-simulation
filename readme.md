@@ -21,7 +21,10 @@ Best regards,
 P. Williams
 
 # Submit any questions or Issues to the Repository, so that they can be tracked and resolved.
+
 1. Title resolved
+2. Website description resolved
+
 
 ## Project Introduction
 
